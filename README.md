@@ -1,29 +1,27 @@
-# Local Development Instructions
-Prerequisites:
+# Book Banker
 
-<ul>
-  <li>Download Docker ---> (https://docs.docker.com/get-docker/)</li>
-  <li>Download Git    ---> (https://github.com/git-guides/install-git</li>
-  <li>Clone this repo ---> (https://github.com/bjornburrell-qcbb/Docker-Book-Review.git) </li>
-    <li>Download npm ---> (Google install npm, if on mac use homebrew) </li>
-</ul>
+This project is a proof-of-concept application of an inventory management system for a book bank.
 
-
-Instructions:
+# Installation
 
 <code>
-git clone https://github.com/bjornburrell-qcbb/Docker-Book-Review.git
+Clone the repository
 
-Run `npm i` inside the client directory
+Change to the server directory `cd server`
 
 Run `npm i` inside the server directory
 
-Run `docker-compose up --build` inside the main project directory
+Start the server with `npm run dev` inside the server directory
 
-Once your container starts, you can access the database and web app locally
+Open a new terminal window
 
-Access the Adminer(database gui) at `http://localhost:8000/`
-Adminer creds: server = `mysql_db`  Username = `root`  password = `MYSQL_ROOT_PASSWORD`
+Change to the client directory: `cd client`
 
-Access the application at `http://localhost:3050/` 
+Run `npm i` inside the client directory
+
+Start the client with `npm run dev` inside the client directory
+
+To access the database: https://localhost:3000
+
+To access the storefront: https://localhost:3001
 </code>
