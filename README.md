@@ -4,24 +4,27 @@ This project is a proof-of-concept application of an inventory management system
 
 # Installation
 
-<code>
 Clone the repository
 
-Change to the server directory `cd server`
+Change to the server directory run npm 
 
-Run `npm i` inside the server directory
-
-Start the server with `npm run dev` inside the server directory
+```bash
+cd server
+npm i
+npm run dev
+```
 
 Open a new terminal window
 
-Change to the client directory: `cd client`
+Change to the client directory run npm
 
-Run `npm i` inside the client directory
-
-Start the client with `npm run dev` inside the client directory
+```bash
+cd client
+npm i
+npm run dev
+```
 
 To access the database: https://localhost:3000
 
 To access the storefront: https://localhost:3001
-</code>
+
