@@ -1,6 +1,6 @@
 # Book Banker
 
-This project is a proof-of-concept application of an inventory management system for a book bank.
+This project is a proof-of-concept application of an all in one inventory management system & store front for a book bank.
 
 # Installation
 
