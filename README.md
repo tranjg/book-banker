@@ -30,6 +30,9 @@ To access the storefront: https://localhost:3001
 
 # Contributors
 Justin Tran - Fullstack Developer
+
 AJ Walder - Mobile Developer
+
 Ethan Putt - Scrum Master
+
 Bjorn Burrell - Backend Developer
